@@ -1,0 +1,65 @@
+.category-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.category-header {
+    font-family: 'Nunito', sans-serif;
+    color: var(--text-dark);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+}
+
+.lesson-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.lesson-card {
+    background-color: white;
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    cursor: pointer;
+    box-shadow: var(--shadow-soft);
+    border: 3px solid var(--primary-mint);
+    transition: transform 0.2s, background-color 0.2s;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lesson-card:hover {
+    transform: scale(1.02);
+    background-color: var(--bg-color-soft);
+    border-color: var(--primary-peach);
+}
+
+.back-button-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+}
+
+.btn-back {
+    background-color: transparent;
+    border: 2px solid var(--text-soft);
+    color: var(--text-soft);
+    box-shadow: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.btn-back:hover {
+    border-color: var(--text-dark);
+    color: var(--text-dark);
+    transform: none;
+}

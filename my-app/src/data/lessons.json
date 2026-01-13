@@ -1,69 +1,172 @@
 {
     "lifestyle": [
         {
-            "id": "1",
+            "id": "wash_hands",
             "title": "Washing Hands",
             "steps": [
                 {
                     "text": "Turn on the water",
-                    "image": "water.png"
+                    "image": "hand1.png"
                 },
                 {
-                    "text": "Apply soap",
-                    "image": "soap.png"
+                    "text": "Apply soap / handwash",
+                    "image": "hand2.png"
                 },
                 {
-                    "text": "Rub hands together",
-                    "image": "rub.png"
+                    "text": "Spread hands and rub them together",
+                    "image": "hand3.png"
                 },
                 {
-                    "text": "Rinse hands",
-                    "image": "rinse.png"
+                    "text": "Close hands and rub them together",
+                    "image": "hand4.png"
                 },
                 {
-                    "text": "Dry hands",
-                    "image": "dry.png"
+                    "text": "Rinse with water",
+                    "image": "hand5.png"
+                },
+                {
+                    "text": "Dry hands with towel / tissues",
+                    "image": "hand6.png"
                 }
             ]
         },
         {
-            "id": "2",
+            "id": "brush_teeth",
             "title": "Brushing Teeth",
             "steps": [
                 {
-                    "text": "Get toothbrush",
+                    "text": "Get toothbrush and Paste",
                     "image": "toothbrush.png"
                 },
                 {
-                    "text": "Put toothpaste on",
-                    "image": "toothpaste.png"
+                    "text": "Use a small amount of toothpaste",
+                    "image": "brush1.png"
                 },
                 {
-                    "text": "Brush teeth",
-                    "image": "brush.png"
+                    "text": "Lets brush the outer surface",
+                    "image": "brush2.png"
+                },
+                {
+                    "text": "Lets brush the outer surface",
+                    "image": "brush3.png"
+                },
+                {
+                    "text": "Lets brush the chewing surface",
+                    "image": "brush4.png"
+                },
+                {
+                    "text": "Lets brush the surface of the tongue",
+                    "image": "brush5.png"
+                },
+                {
+                    "text": "Rinse mouth",
+                    "image": "brush6.png"
                 }
             ]
         }
     ],
     "social": [
         {
-            "id": "1",
+            "id": "greet_friends",
             "title": "Greeting Friends",
             "steps": [
                 {
-                    "text": "Look at friend",
-                    "image": "look.png"
+                    "text": "Look at your friend",
+                    "image": "greet1.png"
                 },
                 {
-                    "text": "Wave hand",
-                    "image": "wave.png"
+                    "text": "Stand near them",
+                    "image": "greet2.png"
+                },
+                {
+                    "text": "Look at their face",
+                    "image": "greet3.png"
+                },
+                {
+                    "text": "Smile a little",
+                    "image": "greet4.png"
+                },
+                {
+                    "text": "Wave your hand",
+                    "image": "greet5.png"
                 },
                 {
                     "text": "Say Hello",
-                    "image": "hello.png"
+                    "image": "greet6.png"
+                }
+            ]
+        },
+        {
+            "id": "ask_help",
+            "title": "Asking for Help",
+            "steps": [
+                {
+                    "text": "Find a teacher or parent or an adult",
+                    "image": "help1.png"
+                },
+                {
+                    "text": "Stand near them",
+                    "image": "help2.png"
+                },
+                {
+                    "text": "Look at their face",
+                    "image": "help3.png"
+                },
+                {
+                    "text": "Say: I need help",
+                    "image": "help4.png"
+                },
+                {
+                    "text": "Wait and listen",
+                    "image": "help5.png"
                 }
             ]
         }
     ],
-    "health": []
+    "health": [
+        {
+            "id": "drink_water",
+            "title": "Drinking Water",
+            "steps": [
+                {
+                    "text": "Take a glass",
+                    "image": "drink1.png"
+                },
+                {
+                    "text": "Fill with water",
+                    "image": "drink2.png"
+                },
+                {
+                    "text": "Drink slowly",
+                    "image": "drink3.png"
+                },
+                {
+                    "text": "Put glass down",
+                    "image": "drink4.png"
+                }
+            ]
+        },
+        {
+            "id": "use_tissue",
+            "title": "Using Tissue",
+            "steps": [
+                {
+                    "text": "Take a tissue",
+                    "image": "tissue1.png"
+                },
+                {
+                    "text": "Hold near nose",
+                    "image": "tissue2.png"
+                },
+                {
+                    "text": "Wipe your nose",
+                    "image": "tissue3.png"
+                },
+                {
+                    "text": "Throw in bin",
+                    "image": "tissue4.png"
+                }
+            ]
+        }
+    ]
 }

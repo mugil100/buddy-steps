@@ -24,3 +24,16 @@ yarn-error.log*
 .vscode/
 .idea/
 Thumbs.db
+
+# Archives and binaries
+*.tar
+*.tar.*
+*.jar
+*.exe
+*.msi
+*.deb
+*.zip
+*.tgz
+*.log
+*.log.*
+*.sig
