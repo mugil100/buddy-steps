@@ -46,6 +46,27 @@ export default function Lesson() {
     const current = lesson.steps[step];
     const imageSrc = getImagePath(current.image);
 
+    // Text to Speech Function
+    const speak = (text) => {
+        // Cancel any current speech
+        window.speechSynthesis.cancel();
+
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.rate = 0.9; // Slightly slower for kids
+        utterance.pitch = 1.1; // Friendly pitch
+
+        // Optional: Find a friendly voice
+        const voices = window.speechSynthesis.getVoices();
+        // Try to find a female/friendly voice if available (browser dependent)
+        const friendlyVoice = voices.find(v => v.name.includes("Female") || v.name.includes("Google US English"));
+        if (friendlyVoice) utterance.voice = friendlyVoice;
+
+        window.speechSynthesis.speak(utterance);
+    };
+
+    // Auto-speak when step changes (optional accessibility feature)
+    // useEffect(() => { speak(current.text) }, [current]); 
+
     return (
         <div className="lesson-container">
             <div className="back-button-container" style={{ width: '100%', marginBottom: '1rem' }}>
@@ -76,7 +97,7 @@ export default function Lesson() {
 
                 <button
                     className="btn-control btn-sound"
-                    onClick={() => new Audio(`/voice/${id}_${step}.mp3`).play()}
+                    onClick={() => speak(current.text)}
                     aria-label="Play sound"
                 >
                     🔊
@@ -85,6 +106,7 @@ export default function Lesson() {
                 <button
                     className="btn-control"
                     onClick={() => {
+                        window.speechSynthesis.cancel(); // Stop speaking when leaving
                         if (step === lesson.steps.length - 1)
                             navigate("/reward");
                         else setStep(step + 1);
