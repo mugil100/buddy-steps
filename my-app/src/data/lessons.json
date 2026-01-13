@@ -1,0 +1,69 @@
+{
+    "lifestyle": [
+        {
+            "id": "1",
+            "title": "Washing Hands",
+            "steps": [
+                {
+                    "text": "Turn on the water",
+                    "image": "water.png"
+                },
+                {
+                    "text": "Apply soap",
+                    "image": "soap.png"
+                },
+                {
+                    "text": "Rub hands together",
+                    "image": "rub.png"
+                },
+                {
+                    "text": "Rinse hands",
+                    "image": "rinse.png"
+                },
+                {
+                    "text": "Dry hands",
+                    "image": "dry.png"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Brushing Teeth",
+            "steps": [
+                {
+                    "text": "Get toothbrush",
+                    "image": "toothbrush.png"
+                },
+                {
+                    "text": "Put toothpaste on",
+                    "image": "toothpaste.png"
+                },
+                {
+                    "text": "Brush teeth",
+                    "image": "brush.png"
+                }
+            ]
+        }
+    ],
+    "social": [
+        {
+            "id": "1",
+            "title": "Greeting Friends",
+            "steps": [
+                {
+                    "text": "Look at friend",
+                    "image": "look.png"
+                },
+                {
+                    "text": "Wave hand",
+                    "image": "wave.png"
+                },
+                {
+                    "text": "Say Hello",
+                    "image": "hello.png"
+                }
+            ]
+        }
+    ],
+    "health": []
+}
